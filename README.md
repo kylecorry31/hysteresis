@@ -1,2 +1,2 @@
-# hysterisis
- A hysterisis controller for Arduinos
+# hysteresis
+ A hysteresis controller for Arduinos

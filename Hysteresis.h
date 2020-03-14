@@ -1,10 +1,10 @@
-#ifndef Hysterisis_h
-#define Hysterisis_h
+#ifndef Hysteresis_h
+#define Hysteresis_h
 
-class HysterisisController {
+class HysteresisController {
 
     public:
-        HysterisisController(float onThreshold, float offThreshold);
+        HysteresisController(float onThreshold, float offThreshold);
         bool calculate(float input);
     private:
         bool wasOn_ = false;
